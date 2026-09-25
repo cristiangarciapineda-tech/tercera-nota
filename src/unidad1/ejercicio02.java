@@ -1,6 +1,6 @@
 package unidad1;
 
-public class ejercicio02 {
+public class Ejercicio02 {
     public static void main(String[] args) {
 
         //Un arreglo es una estructura de datos que nos permite guardar elementos del mismo tipo, el tamaño se define cuando se crea

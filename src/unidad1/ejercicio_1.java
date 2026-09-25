@@ -1,5 +1,5 @@
 package unidad1;
-public class ejercicio_1 {
+public class Ejercicio_1 {
     public static void main(String[] args) {
         byte age = 16;
         float height = 1.67f;

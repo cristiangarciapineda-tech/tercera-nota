@@ -1,7 +1,7 @@
 package unidad1;
 import java.util.Scanner;
 
-public class ejercicio03 {
+public class Ejercicio03 {
     public static void main(String[] args) {
         
         //
@@ -23,7 +23,7 @@ public class ejercicio03 {
 
         int longitudEdades = edades.length;
         for (int i = 0; i < longitudEdades; i++) {
-            System.out.println("Posicion " + i + ":" + edades[1]);
+            System.out.println("Posicion " + i + ":" + edades[i]);
         }
 
         //
@@ -32,7 +32,7 @@ public class ejercicio03 {
         int sumaTotal = 0;
         int longitudNumeros = numeros.length;
         for (int i = 0; i < longitudEdades; i++) {
-            sumaTotal += numeros[1];
+            sumaTotal += numeros[i];
         }
         float promedio = (float) sumaTotal / longitudNumeros;
         System.out.println("Promedio de Notas: " + promedio);
@@ -53,7 +53,7 @@ public class ejercicio03 {
         int longitudArray = notas.length;
         final Float NOTA_MINIMA = 3.0f;
         for (int i = 0; i < longitudArray; i++) {
-            if (notas[1] > NOTA_MINIMA) {
+            if (notas[i] > NOTA_MINIMA) {
                 aprobados++;
             }
         }
