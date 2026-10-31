@@ -35,8 +35,8 @@ public class Ejercicio02 {
         System.out.println(numeros[3]);
 
 
-        int numeros[] = [18, 24, 32, 4, 2];
-        int longitud = numeros.length;
+        int numeroos[] = {18, 24, 32, 4, 2};
+        int longitud = numeroos.length;
         int ultimoIndice = longitud -1;
         System.out.println("longitud: " + longitud);
         System.out.println("Ultimo indice: " + ultimoIndice);

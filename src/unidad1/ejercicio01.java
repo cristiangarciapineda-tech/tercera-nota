@@ -36,10 +36,7 @@ public class Ejercicio01 {
         final Float NOTA_EXCELENTE = 4.5f;
         final Float NOTA_APROBADA = 3.0f;
 
-        if (condition) {
-            
-        }
-
+        
         byte opcion = 2;
         switch (opcion) {
             case 1:
