@@ -6,7 +6,7 @@ public class Ejercicio20 {
     public static void duplicarNumero(int numero) {
         numero = numero * 2;
 
-        System.out.println("Dentro del metodo: " + numero);
+        System.out.println("Numero" + numero);
     }
 
     public static void main(String[] args) {
